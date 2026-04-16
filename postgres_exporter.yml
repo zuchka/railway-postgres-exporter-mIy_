@@ -7,4 +7,4 @@ auth_modules:
     options:
       sslmode: require
 
-db_url: postgresql://postgres:${DB_PASSWORD}@nozomi.proxy.rlwy.net:53581/railway
+db_url: ${DATABASE_URL}
