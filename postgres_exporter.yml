@@ -6,5 +6,3 @@ auth_modules:
       password: ${DB_PASSWORD}
     options:
       sslmode: require
-
-db_url: ${DATABASE_URL}
